@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   /* let n=+prompt('nhap zo dey')
+    let a=0;
+    let b=1;
+    let c=0;
+    let str='0,1';
+    let count=3;
+    for (let i = 1; i <= n; i++) {
+        c = a + b;
+        a = b;
+        b = c;
+        str += ',' + c;
+        count++;
+        if (c%5==0)
+            document.write('so chia het cho 5'+c+'<br>')
+    }*/
+   let n=+prompt('nhap zo dey')
+   let a=0;
+   let b=1;
+   let c=0;
+   let str='0,1';
+   let count=3;
+   for (let i = 1; i <= 20; i++) {
+       c = a + b;
+       a = b;
+       b = c;
+       str += ',' + c;
+       count++;
+   }
+document.write(str)
+</script>
+</body>
+</html>
